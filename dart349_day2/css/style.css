@@ -1,0 +1,72 @@
+/* CSS RESET */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #fff;
+  font-family: gotham, helvetica, verdana, sans-serif;
+}
+
+header{
+  background-color: crimson;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 72px;
+}
+
+header h2{
+  font-family: georgia, serif;
+  font-style: italic;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 24px;
+}
+
+nav {
+  background-color: #333;
+}
+nav a:link {
+  padding:20px;
+  display:inline-block;
+  color: white;
+  text-decoration: none;
+}
+nav a:visited{
+  color:white;
+}
+nav a:hover {
+  background-color: white;
+  color:#333;
+}
+nav a:active {
+  background-color: crimson;
+}
+
+article {
+  padding:20px;
+}
+article h1 {
+  font-size: 38;
+  text-transform: capitalize;
+}
+article img {
+  /* responsive img */
+  width:100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+article p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
