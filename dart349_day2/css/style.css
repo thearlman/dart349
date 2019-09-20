@@ -8,7 +8,6 @@
 body {
   font-family: gotham, helvetica, verdana, sans-serif;
   background-color: black;
-
 }
 
 header{
@@ -52,7 +51,7 @@ nav a:hover{
 }
 article h1 {
   font-size: 40px;
-  text-transform: capitalize;
+  text-transform: capitalize
 }
 article h2 {
   font-size: 24px;
