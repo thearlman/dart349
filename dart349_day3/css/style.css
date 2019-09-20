@@ -4,6 +4,9 @@
   margin: 0;
 }
 
+#bgblue {
+  background-color:cadetblue;
+}
 
 body {
   font-family: gotham, helvetica, verdana, sans-serif;
@@ -65,17 +68,32 @@ article {
 article p {
   text-align: left;
 }
+/* Classes begin with a . */
+.red {
+  color: red;
+  font-family: georgia, serif;
+  font-style: italic;
+  background-color: #aaa;
+  padding: 10px;
+  margin: 20px 100px;
+
+  border-left:solid 40px red;
+}
 article img {
   /* responsive img */
   width:75%;
   margin-bottom: 20px;
   margin-top: 20px;
 }
-
+.small-img {
+  width: 150px;
+  float:left;
+  margin:20px;
+}
 #home article img {
   /* margin-bottom: 20px;
   margin-top: 20px; */
-  width:5%;
+  width:10%;
   display: block;
   margin:auto;
   margin-left: auto;
